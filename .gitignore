@@ -1,0 +1,44 @@
+# ───── Environment & Secrets ─────
+.env
+.env.*
+!.env.example
+backend/.env
+token.json
+credentials.json
+
+# ───── Python ─────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ───── Node / Frontend ─────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ───── IDE ─────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ───── OS ─────
+*.log
+*.pid
+*.seed
+
+# ───── Agents / Gemini ─────
+.agents/
+.gemini/

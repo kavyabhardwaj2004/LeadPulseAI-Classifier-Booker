@@ -1,0 +1,858 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "cand_001",
+      "tenant_id": "agency_006",
+      "name": "Yuki Andersen",
+      "email": "yuki.andersen@protonmail.com",
+      "phone": "+1-914-532-6574",
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "Celery",
+        "AWS EC2",
+        "NumPy",
+        "Pandas"
+      ],
+      "years_exp": 5,
+      "past_companies": [
+        "CircleCI",
+        "Prism Analytics"
+      ],
+      "current_role": "Backend Engineer",
+      "location": "Stockholm, Sweden",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_027",
+      "created_at": "2026-02-14T08:33:37Z"
+    },
+    {
+      "candidate_id": "cand_002",
+      "tenant_id": "agency_006",
+      "name": "Nadia Hassan",
+      "email": "nadia.hassan@yahoo.com",
+      "phone": "+1-947-570-9785",
+      "skills": [
+        "Kotlin",
+        "Android",
+        "Jetpack Compose",
+        "Firebase",
+        "Retrofit",
+        "Room",
+        "Coroutines",
+        "MVVM"
+      ],
+      "years_exp": 3,
+      "past_companies": [
+        "Twilio",
+        "Cloudflare",
+        "Trellis Systems"
+      ],
+      "current_role": "Senior Data Analyst",
+      "location": "Dubai, UAE",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-10T20:15:33Z"
+    },
+    {
+      "candidate_id": "cand_003",
+      "tenant_id": "agency_006",
+      "name": "Priya Nielsen",
+      "email": "priya.nielsen@gmail.com",
+      "phone": "+1-496-181-4814",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Docker",
+        "Jenkins",
+        "AWS",
+        "Maven",
+        "Hibernate"
+      ],
+      "years_exp": 3,
+      "past_companies": [
+        "Segment",
+        "PagerDuty",
+        "Prism Analytics"
+      ],
+      "current_role": "Full Stack Developer",
+      "location": "New York, NY",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-13T05:45:46Z"
+    },
+    {
+      "candidate_id": "cand_004",
+      "tenant_id": "agency_006",
+      "name": "Diana Lindqvist",
+      "email": "diana.lindqvist@outlook.com",
+      "phone": "+1-375-646-5010",
+      "skills": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "HTML",
+        "CSS",
+        "Zeplin",
+        "InVision"
+      ],
+      "years_exp": 1,
+      "past_companies": [
+        "Comet Labs",
+        "Trellis Systems"
+      ],
+      "current_role": "Junior Full Stack Developer",
+      "location": "Berlin, Germany",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-10T09:20:59Z"
+    },
+    {
+      "candidate_id": "cand_005",
+      "tenant_id": "agency_006",
+      "name": "Hugo Williams",
+      "email": "hugo.williams@gmail.com",
+      "phone": "+1-267-316-6155",
+      "skills": [
+        "WordPress",
+        "PHP",
+        "MySQL",
+        "HTML/CSS",
+        "SEO",
+        "Elementor",
+        "WooCommerce"
+      ],
+      "years_exp": 1,
+      "past_companies": [
+        "Comet Labs",
+        "Vela Technologies"
+      ],
+      "current_role": "Junior Backend Developer",
+      "location": "Austin, TX",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-16T19:30:37Z"
+    },
+    {
+      "candidate_id": "cand_006",
+      "tenant_id": "agency_006",
+      "name": "James Andersen",
+      "email": "james.andersen@outlook.com",
+      "phone": "+1-608-470-4593",
+      "skills": [
+        "Go",
+        "Kubernetes",
+        "Distributed Systems",
+        "AWS",
+        "gRPC",
+        "Prometheus",
+        "Terraform",
+        "Rust"
+      ],
+      "years_exp": 9,
+      "past_companies": [
+        "Amazon",
+        "Meta",
+        "Netlify"
+      ],
+      "current_role": "Senior ML Engineer",
+      "location": "Amsterdam, Netherlands",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_065",
+      "created_at": "2026-02-10T18:30:13Z"
+    },
+    {
+      "candidate_id": "cand_007",
+      "tenant_id": "agency_006",
+      "name": "Claire Dubois",
+      "email": "claire.dubois@icloud.com",
+      "phone": "+1-766-981-1188",
+      "skills": [
+        "Python",
+        "PyTorch",
+        "Computer Vision",
+        "Kubernetes",
+        "MLflow",
+        "CUDA",
+        "AWS SageMaker",
+        "Hugging Face"
+      ],
+      "years_exp": 8,
+      "past_companies": [
+        "Spotify",
+        "Microsoft",
+        "Segment"
+      ],
+      "current_role": "Senior ML Engineer",
+      "location": "Los Angeles, CA",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_024",
+      "created_at": "2026-02-13T04:43:03Z"
+    },
+    {
+      "candidate_id": "cand_008",
+      "tenant_id": "agency_006",
+      "name": "Zara Edwards",
+      "email": "zara.edwards@gmail.com",
+      "phone": "+1-308-991-5889",
+      "skills": [
+        "C#",
+        ".NET",
+        "Azure",
+        "SQL Server",
+        "Docker",
+        "Entity Framework",
+        "REST APIs",
+        "Blazor"
+      ],
+      "years_exp": 8,
+      "past_companies": [
+        "LaunchDarkly",
+        "NovaBridge Solutions"
+      ],
+      "current_role": "Product Designer",
+      "location": "San Francisco, CA",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_059",
+      "created_at": "2026-02-15T22:19:00Z"
+    },
+    {
+      "candidate_id": "cand_009",
+      "tenant_id": "agency_006",
+      "name": "Arjun Johnson",
+      "email": "arjun.johnson@yahoo.com",
+      "phone": "+1-514-345-1949",
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "Celery",
+        "AWS EC2",
+        "NumPy",
+        "Pandas"
+      ],
+      "years_exp": 4,
+      "past_companies": [
+        "Sumo Logic",
+        "Vela Technologies"
+      ],
+      "current_role": "Product Designer",
+      "location": "Hyderabad, India",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_036",
+      "created_at": "2026-02-15T18:26:09Z"
+    },
+    {
+      "candidate_id": "cand_010",
+      "tenant_id": "agency_006",
+      "name": "James Chen",
+      "email": "james.chen@gmail.com",
+      "phone": "+1-821-533-4470",
+      "skills": [
+        "C#",
+        ".NET",
+        "Azure",
+        "SQL Server",
+        "Docker",
+        "Entity Framework",
+        "REST APIs",
+        "Blazor"
+      ],
+      "years_exp": 7,
+      "past_companies": [
+        "Datadog",
+        "Prism Analytics",
+        "Vela Technologies"
+      ],
+      "current_role": "Senior QA Engineer",
+      "location": "New York, NY",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-12T17:26:52Z"
+    },
+    {
+      "candidate_id": "cand_011",
+      "tenant_id": "agency_006",
+      "name": "Lena Williams",
+      "email": "lena.williams@gmail.com",
+      "phone": "+1-767-335-4608",
+      "skills": [
+        "Python",
+        "Kubernetes",
+        "Machine Learning",
+        "AWS",
+        "TensorFlow",
+        "Spark",
+        "Airflow",
+        "dbt"
+      ],
+      "years_exp": 7,
+      "past_companies": [
+        "Airbnb",
+        "Twilio"
+      ],
+      "current_role": "Principal Product Engineer",
+      "location": "New York, NY",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-13T09:06:44Z"
+    },
+    {
+      "candidate_id": "cand_012",
+      "tenant_id": "agency_006",
+      "name": "Finn Larsson",
+      "email": "finn.larsson@gmail.com",
+      "phone": "+1-335-840-8744",
+      "skills": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Pandas",
+        "Matplotlib",
+        "Jupyter"
+      ],
+      "years_exp": 1,
+      "past_companies": [
+        "Comet Labs",
+        "Hexaloop"
+      ],
+      "current_role": "Software Developer I",
+      "location": "Stockholm, Sweden",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_059",
+      "created_at": "2026-02-15T03:22:34Z"
+    },
+    {
+      "candidate_id": "cand_013",
+      "tenant_id": "agency_006",
+      "name": "Samuel Gupta",
+      "email": "samuel.gupta@outlook.com",
+      "phone": "+1-861-200-1993",
+      "skills": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "HTML",
+        "CSS",
+        "Zeplin",
+        "InVision"
+      ],
+      "years_exp": 2,
+      "past_companies": [
+        "Stackwell Inc",
+        "Hexaloop"
+      ],
+      "current_role": "Associate UX Designer",
+      "location": "Seattle, WA",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_088",
+      "created_at": "2026-02-11T16:49:51Z"
+    },
+    {
+      "candidate_id": "cand_014",
+      "tenant_id": "agency_006",
+      "name": "Samuel Chen",
+      "email": "samuel.chen@gmail.com",
+      "phone": "+1-455-995-2235",
+      "skills": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "TypeScript",
+        "REST APIs",
+        "Redis"
+      ],
+      "years_exp": 6,
+      "past_companies": [
+        "Grafana Labs",
+        "Axiom Softworks"
+      ],
+      "current_role": "Backend Engineer",
+      "location": "Seattle, WA",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_036",
+      "created_at": "2026-02-14T22:22:36Z"
+    },
+    {
+      "candidate_id": "cand_015",
+      "tenant_id": "agency_006",
+      "name": "Lars Larsson",
+      "email": "lars.larsson@gmail.com",
+      "phone": "+1-610-160-3697",
+      "skills": [
+        "Figma",
+        "User Research",
+        "Prototyping",
+        "A/B Testing",
+        "Sketch",
+        "InVision",
+        "Zeplin",
+        "Usability Testing"
+      ],
+      "years_exp": 6,
+      "past_companies": [
+        "Segment",
+        "Vela Technologies",
+        "Trellis Systems"
+      ],
+      "current_role": "Mobile Engineer",
+      "location": "New York, NY",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_088",
+      "created_at": "2026-02-11T21:05:16Z"
+    },
+    {
+      "candidate_id": "cand_016",
+      "tenant_id": "agency_006",
+      "name": "Fatima Krishnamurthy",
+      "email": "fatima.krishnamurthy@gmail.com",
+      "phone": "+1-259-693-9883",
+      "skills": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Power BI",
+        "Google Analytics",
+        "Data Cleaning"
+      ],
+      "years_exp": 1,
+      "past_companies": [
+        "Brightworks Digital",
+        "Quill Ventures"
+      ],
+      "current_role": "Junior Data Analyst",
+      "location": "Bangalore, India",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_027",
+      "created_at": "2026-02-12T06:07:31Z"
+    },
+    {
+      "candidate_id": "cand_017",
+      "tenant_id": "agency_006",
+      "name": "Lena Mendez",
+      "email": "lena.mendez@gmail.com",
+      "phone": "+1-440-513-2964",
+      "skills": [
+        "Rust",
+        "WebAssembly",
+        "Distributed Systems",
+        "Kubernetes",
+        "gRPC",
+        "AWS",
+        "eBPF",
+        "Observability"
+      ],
+      "years_exp": 10,
+      "past_companies": [
+        "OpenAI",
+        "Grafana Labs"
+      ],
+      "current_role": "Distinguished Engineer",
+      "location": "Austin, TX",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_041",
+      "created_at": "2026-02-12T11:29:41Z"
+    },
+    {
+      "candidate_id": "cand_018",
+      "tenant_id": "agency_006",
+      "name": "Finn Petrova",
+      "email": "finn.petrova@gmail.com",
+      "phone": "+1-471-505-3144",
+      "skills": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "TypeScript",
+        "REST APIs",
+        "Redis"
+      ],
+      "years_exp": 8,
+      "past_companies": [
+        "PagerDuty",
+        "LaunchDarkly",
+        "Stackwell Inc"
+      ],
+      "current_role": "Senior QA Engineer",
+      "location": "Miami, FL",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_027",
+      "created_at": "2026-02-10T21:20:19Z"
+    },
+    {
+      "candidate_id": "cand_019",
+      "tenant_id": "agency_006",
+      "name": "James Al-Rashid",
+      "email": "james.al-rashid@icloud.com",
+      "phone": "+1-270-350-7054",
+      "skills": [
+        "Python",
+        "Scikit-learn",
+        "SQL",
+        "Pandas",
+        "Matplotlib",
+        "Jupyter",
+        "AWS S3",
+        "Power BI"
+      ],
+      "years_exp": 5,
+      "past_companies": [
+        "Netlify",
+        "Axiom Softworks",
+        "Trellis Systems"
+      ],
+      "current_role": "Software Engineer II",
+      "location": "London, UK",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_041",
+      "created_at": "2026-02-11T06:10:18Z"
+    },
+    {
+      "candidate_id": "cand_020",
+      "tenant_id": "agency_006",
+      "name": "Tyler Rivera",
+      "email": "tyler.rivera@gmail.com",
+      "phone": "+1-309-860-3546",
+      "skills": [
+        "Java",
+        "Kubernetes",
+        "Spring Boot",
+        "AWS",
+        "Kafka",
+        "PostgreSQL",
+        "Terraform",
+        "CI/CD"
+      ],
+      "years_exp": 11,
+      "past_companies": [
+        "LinkedIn",
+        "Stripe",
+        "Sumo Logic"
+      ],
+      "current_role": "Lead Data Engineer",
+      "location": "Austin, TX",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_088",
+      "created_at": "2026-02-13T01:08:39Z"
+    },
+    {
+      "candidate_id": "cand_021",
+      "tenant_id": "agency_006",
+      "name": "Tyler Lindqvist",
+      "email": "tyler.lindqvist@icloud.com",
+      "phone": "+1-483-145-1058",
+      "skills": [
+        "Swift",
+        "iOS",
+        "UIKit",
+        "SwiftUI",
+        "CoreData",
+        "Firebase",
+        "Xcode",
+        "TestFlight"
+      ],
+      "years_exp": 5,
+      "past_companies": [
+        "Zendesk",
+        "Vela Technologies",
+        "Axiom Softworks"
+      ],
+      "current_role": "Data Scientist",
+      "location": "New York, NY",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_024",
+      "created_at": "2026-02-11T08:35:08Z"
+    },
+    {
+      "candidate_id": "cand_022",
+      "tenant_id": "agency_006",
+      "name": "Lena Osei",
+      "email": "lena.osei@protonmail.com",
+      "phone": "+1-578-696-3426",
+      "skills": [
+        "Java",
+        "OOP",
+        "MySQL",
+        "Spring MVC",
+        "HTML",
+        "CSS",
+        "Git"
+      ],
+      "years_exp": 2,
+      "past_companies": [
+        "Brightworks Digital"
+      ],
+      "current_role": "Junior Full Stack Developer",
+      "location": "San Francisco, CA",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_059",
+      "created_at": "2026-02-12T13:11:21Z"
+    },
+    {
+      "candidate_id": "cand_023",
+      "tenant_id": "agency_006",
+      "name": "Finn Thompson",
+      "email": "finn.thompson@outlook.com",
+      "phone": "+1-616-735-3532",
+      "skills": [
+        "React",
+        "TypeScript",
+        "GraphQL",
+        "Next.js",
+        "AI/ML APIs",
+        "LLM Integration",
+        "Vercel",
+        "Redis"
+      ],
+      "years_exp": 10,
+      "past_companies": [
+        "OpenAI",
+        "HubSpot"
+      ],
+      "current_role": "Principal Product Engineer",
+      "location": "Denver, CO",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-13T05:42:46Z"
+    },
+    {
+      "candidate_id": "cand_024",
+      "tenant_id": "agency_006",
+      "name": "Wei Fischer",
+      "email": "wei.fischer@protonmail.com",
+      "phone": "+1-681-327-4269",
+      "skills": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "HTML",
+        "CSS",
+        "Zeplin",
+        "InVision"
+      ],
+      "years_exp": 2,
+      "past_companies": [
+        "Trellis Systems",
+        "Hexaloop"
+      ],
+      "current_role": "Junior Frontend Developer",
+      "location": "Amsterdam, Netherlands",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_065",
+      "created_at": "2026-02-13T23:36:47Z"
+    },
+    {
+      "candidate_id": "cand_025",
+      "tenant_id": "agency_006",
+      "name": "Ingrid Park",
+      "email": "ingrid.park@gmail.com",
+      "phone": "+1-991-385-6753",
+      "skills": [
+        "Go",
+        "Kubernetes",
+        "Distributed Systems",
+        "AWS",
+        "gRPC",
+        "Prometheus",
+        "Terraform",
+        "Rust"
+      ],
+      "years_exp": 15,
+      "past_companies": [
+        "Atlassian",
+        "Spotify",
+        "HubSpot"
+      ],
+      "current_role": "Senior Platform Engineer",
+      "location": "Austin, TX",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_041",
+      "created_at": "2026-02-10T11:08:35Z"
+    },
+    {
+      "candidate_id": "cand_026",
+      "tenant_id": "agency_006",
+      "name": "Marcus Mendez",
+      "email": "marcus.mendez@gmail.com",
+      "phone": "+1-946-905-6139",
+      "skills": [
+        "Python",
+        "Kubernetes",
+        "Machine Learning",
+        "AWS",
+        "TensorFlow",
+        "Spark",
+        "Airflow",
+        "dbt"
+      ],
+      "years_exp": 13,
+      "past_companies": [
+        "Salesforce",
+        "Intercom",
+        "Segment"
+      ],
+      "current_role": "Staff Infrastructure Engineer",
+      "location": "Miami, FL",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_038",
+      "created_at": "2026-02-14T10:05:13Z"
+    },
+    {
+      "candidate_id": "cand_027",
+      "tenant_id": "agency_006",
+      "name": "Samuel Mueller",
+      "email": "samuel.mueller@yahoo.com",
+      "phone": "+1-838-421-3041",
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Postman"
+      ],
+      "years_exp": 3,
+      "past_companies": [
+        "Axiom Softworks",
+        "Trellis Systems"
+      ],
+      "current_role": "Junior Full Stack Developer",
+      "location": "Stockholm, Sweden",
+      "resume_score": "C_player",
+      "linked_lead_id": "lead_041",
+      "created_at": "2026-02-16T17:29:03Z"
+    },
+    {
+      "candidate_id": "cand_028",
+      "tenant_id": "agency_006",
+      "name": "Sofia Al-Rashid",
+      "email": "sofia.al-rashid@gmail.com",
+      "phone": "+1-588-793-3851",
+      "skills": [
+        "Scala",
+        "Apache Kafka",
+        "Flink",
+        "Spark",
+        "AWS",
+        "Data Engineering",
+        "Airflow",
+        "Snowflake"
+      ],
+      "years_exp": 11,
+      "past_companies": [
+        "Atlassian",
+        "Google",
+        "Segment"
+      ],
+      "current_role": "Lead Data Engineer",
+      "location": "Berlin, Germany",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_059",
+      "created_at": "2026-02-15T15:26:15Z"
+    },
+    {
+      "candidate_id": "cand_029",
+      "tenant_id": "agency_006",
+      "name": "Neha Gupta",
+      "email": "neha.gupta@yahoo.com",
+      "phone": "+1-953-273-2389",
+      "skills": [
+        "Scala",
+        "Apache Kafka",
+        "Flink",
+        "Spark",
+        "AWS",
+        "Data Engineering",
+        "Airflow",
+        "Snowflake"
+      ],
+      "years_exp": 11,
+      "past_companies": [
+        "Amazon",
+        "Airbnb",
+        "Grafana Labs"
+      ],
+      "current_role": "Lead Data Engineer",
+      "location": "Hyderabad, India",
+      "resume_score": "A_player",
+      "linked_lead_id": "lead_036",
+      "created_at": "2026-02-10T07:06:51Z"
+    },
+    {
+      "candidate_id": "cand_030",
+      "tenant_id": "agency_006",
+      "name": "Priya Thompson",
+      "email": "priya.thompson@yahoo.com",
+      "phone": "+1-986-174-8461",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Docker",
+        "Jenkins",
+        "AWS",
+        "Maven",
+        "Hibernate"
+      ],
+      "years_exp": 6,
+      "past_companies": [
+        "PagerDuty",
+        "Comet Labs",
+        "Hexaloop"
+      ],
+      "current_role": "Software Engineer II",
+      "location": "Bangalore, India",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_027",
+      "created_at": "2026-02-15T03:49:58Z"
+    },
+    {
+      "candidate_id": "cand_2765cb",
+      "tenant_id": "agency_008",
+      "name": "Kavya Bhardwaj",
+      "email": "kb@gmail.com",
+      "phone": "+1-512-555-0199",
+      "skills": [
+        "Communication",
+        "General Management"
+      ],
+      "years_exp": 2,
+      "past_companies": [
+        "N/A"
+      ],
+      "current_role": "Applicant",
+      "location": "Noida, India",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_750a57",
+      "created_at": null
+    },
+    {
+      "candidate_id": "cand_29b5ba",
+      "tenant_id": "agency_008",
+      "name": "KAVYA Bhardwaj",
+      "email": "kavyabhardwaj1282@gmail.com",
+      "phone": "+1-512-555-0199",
+      "skills": [
+        "Communication",
+        "General Management"
+      ],
+      "years_exp": 2,
+      "past_companies": [
+        "N/A"
+      ],
+      "current_role": "Applicant",
+      "location": "Hapur, India",
+      "resume_score": "B_player",
+      "linked_lead_id": "lead_f01c62",
+      "created_at": null
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "tenants": [
+    {
+      "tenant_id": "agency_001",
+      "company_name": "Veridian Systems",
+      "category": "IT service companies",
+      "website": "veridiansystems.io",
+      "employees": 340,
+      "industry": "Information Technology",
+      "services_offered": [
+        "Cloud Infrastructure Management",
+        "DevOps Consulting",
+        "Cybersecurity Audits",
+        "Managed IT Support",
+        "Network Architecture"
+      ],
+      "escalation_email": "cto@veridiansystems.io",
+      "timezone": "America/Chicago",
+      "oauth_gmail": true,
+      "oauth_calendar": false,
+      "manual_approval": false,
+      "active_sources": [
+        "Gmail or Outlook inbox",
+        "Website contact forms",
+        "CRM lead forms",
+        "Chatbot conversations"
+      ],
+      "created_at": "2026-01-08T09:15:00Z"
+    },
+    {
+      "tenant_id": "agency_002",
+      "company_name": "Loopfeed",
+      "category": "SaaS startups",
+      "website": "loopfeed.com",
+      "employees": 47,
+      "industry": "Marketing Technology",
+      "services_offered": [
+        "Customer Feedback Automation",
+        "NPS Survey Tooling",
+        "CRM Integrations",
+        "Analytics Dashboards"
+      ],
+      "competitors": [
+        "Delighted",
+        "Medallia",
+        "Qualtrics"
+      ],
+      "timezone": "America/New_York",
+      "oauth_gmail": true,
+      "oauth_calendar": true,
+      "manual_approval": false,
+      "active_sources": [
+        "Landing pages",
+        "Chatbot conversations",
+        "Website contact forms"
+      ],
+      "created_at": "2026-01-14T14:30:00Z"
+    },
+    {
+      "tenant_id": "agency_003",
+      "company_name": "Hartwell Advisory Group",
+      "category": "Consulting agencies",
+      "website": "hartwelladvisory.com",
+      "employees": 95,
+      "industry": "Management Consulting",
+      "services_offered": [
+        "Operational Strategy",
+        "Digital Transformation",
+        "Change Management",
+        "Process Optimization"
+      ],
+      "escalation_email": "partner@hartwelladvisory.com",
+      "timezone": "Europe/London",
+      "oauth_gmail": false,
+      "oauth_calendar": true,
+      "manual_approval": true,
+      "active_sources": [
+        "Website contact forms",
+        "LinkedIn lead forms",
+        "Gmail or Outlook inbox"
+      ],
+      "created_at": "2026-01-03T11:00:00Z"
+    },
+    {
+      "tenant_id": "agency_004",
+      "company_name": "Northbeam Marketing",
+      "category": "Digital marketing agencies",
+      "website": "northbeammarketing.co",
+      "employees": 62,
+      "industry": "Digital Advertising",
+      "services_offered": [
+        "Paid Media Management",
+        "SEO & Content Strategy",
+        "Conversion Rate Optimization",
+        "Email Campaign Management"
+      ],
+      "competitors": [
+        "Tinuiti",
+        "Wpromote",
+        "Power Digital Marketing"
+      ],
+      "portfolio_tags": [
+        "DTC Fashion",
+        "Fintech",
+        "Health & Wellness",
+        "Consumer Electronics"
+      ],
+      "timezone": "America/Los_Angeles",
+      "oauth_gmail": true,
+      "oauth_calendar": false,
+      "manual_approval": false,
+      "active_sources": [
+        "Landing pages",
+        "Website contact forms",
+        "CRM lead forms"
+      ],
+      "created_at": "2026-01-19T16:45:00Z"
+    },
+    {
+      "tenant_id": "agency_005",
+      "company_name": "Arkenstone B2B Solutions",
+      "category": "B2B companies",
+      "website": "arkenstoneb2b.com",
+      "employees": 210,
+      "industry": "Business Process Outsourcing",
+      "services_offered": [
+        "Enterprise Sales Enablement",
+        "Account-Based Marketing",
+        "Lead Qualification Services",
+        "Demand Generation",
+        "Revenue Operations"
+      ],
+      "timezone": "Asia/Kolkata",
+      "oauth_gmail": false,
+      "oauth_calendar": false,
+      "manual_approval": false,
+      "active_sources": [
+        "LinkedIn lead forms",
+        "CRM lead forms",
+        "Website contact forms",
+        "Gmail or Outlook inbox"
+      ],
+      "created_at": "2026-01-25T07:00:00Z"
+    },
+    {
+      "tenant_id": "agency_006",
+      "company_name": "Talentbridge Recruiting",
+      "category": "Recruitment agencies",
+      "website": "talentbridgerecruiting.com",
+      "employees": 38,
+      "industry": "Human Resources & Staffing",
+      "services_offered": [
+        "Executive Search",
+        "Technical Talent Placement",
+        "Contract Staffing",
+        "Candidate Screening & Assessment"
+      ],
+      "timezone": "Europe/Berlin",
+      "oauth_gmail": true,
+      "oauth_calendar": true,
+      "manual_approval": true,
+      "active_sources": [
+        "Gmail or Outlook inbox",
+        "LinkedIn lead forms",
+        "CRM lead forms"
+      ],
+      "created_at": "2026-01-31T10:20:00Z"
+    },
+    {
+      "tenant_id": "agency_007",
+      "company_name": "CloudScale Technologies",
+      "category": "SaaS startups",
+      "website": "cloudscale.io",
+      "employees": 45,
+      "industry": "SaaS / Cloud Infrastructure",
+      "services_offered": [
+        "DevOps Consulting",
+        "Cloud Migration",
+        "AWS Management",
+        "Kubernetes Deployment",
+        "CI/CD Automation"
+      ],
+      "competitors": [
+        "Accenture",
+        "Cognizant",
+        "Rackspace"
+      ],
+      "portfolio_tags": [],
+      "escalation_email": "",
+      "timezone": "Asia/Kolkata",
+      "oauth_gmail": false,
+      "oauth_calendar": false,
+      "manual_approval": true,
+      "active_sources": [
+        "Gmail or Outlook inbox",
+        "Website contact forms",
+        "CRM lead forms",
+        "Chatbot conversations",
+        "Landing pages",
+        "LinkedIn lead forms"
+      ],
+      "created_at": "2026-06-24T08:21:35.334406Z"
+    },
+    {
+      "tenant_id": "agency_008",
+      "company_name": "TalentBridge Recruiting",
+      "category": "Recruitment agencies",
+      "website": "talentbridge.io",
+      "employees": 75,
+      "industry": "Recruitment & Staffing",
+      "services_offered": [
+        "Executive Search",
+        "IT Recruitment",
+        "Contract Staffing",
+        "Permanent Hiring",
+        "Talent Acquisition",
+        "Recruitment Process Outsourcing"
+      ],
+      "competitors": [],
+      "portfolio_tags": [],
+      "escalation_email": "",
+      "timezone": "America/New_York",
+      "oauth_gmail": false,
+      "oauth_calendar": false,
+      "manual_approval": true,
+      "active_sources": [
+        "Gmail or Outlook inbox",
+        "Website contact forms",
+        "CRM lead forms",
+        "Chatbot conversations",
+        "Landing pages",
+        "LinkedIn lead forms"
+      ],
+      "created_at": "2026-06-24T08:47:58.641211Z"
+    }
+  ]
+}

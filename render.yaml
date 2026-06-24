@@ -1,0 +1,35 @@
+services:
+  # FastAPI Backend Service
+  - type: web
+    name: leadpulse-backend
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    rootDir: backend
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: GOOGLE_REDIRECT_URI
+        value: "https://your-backend-url.onrender.com/oauth/callback"
+      - key: SLACK_WEBHOOK_URL
+        sync: false
+      - key: OLLAMA_BASE_URL
+        value: "http://localhost:11434"
+      - key: OLLAMA_MODEL
+        value: "gemma3:4b"
+
+  # Static React Frontend
+  - type: web
+    name: leadpulse-frontend
+    env: static
+    buildCommand: "npm install && npm run build"
+    publishDir: dist
+    rootDir: frontend
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: max-age=31536000
