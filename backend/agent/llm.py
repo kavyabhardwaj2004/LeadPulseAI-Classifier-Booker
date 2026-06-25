@@ -2,7 +2,7 @@ import json
 import httpx
 import google.generativeai as genai
 from typing import Dict, Any, Optional, Tuple, List
-from backend.config import get_settings
+from config import get_settings
 
 settings = get_settings()
 

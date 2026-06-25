@@ -2,10 +2,10 @@ import re
 import uuid
 from datetime import datetime
 from typing import Dict, Any
-from backend.agent.state import LeadState
-from backend.services import crm, geocoding, slack, calendar_svc, gmail_svc
-from backend.agent import llm
-from backend.verticals import it_services, saas, digital_marketing, b2b, recruitment
+from agent.state import LeadState
+from services import crm, geocoding, slack, calendar_svc, gmail_svc
+from agent import llm
+from verticals import it_services, saas, digital_marketing, b2b, recruitment
 
 def log_activity(state: Dict[str, Any], message: str):
     """Appends a timestamped message to the activity log."""

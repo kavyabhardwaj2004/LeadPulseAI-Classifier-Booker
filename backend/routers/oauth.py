@@ -3,8 +3,8 @@ from fastapi import APIRouter, Request, HTTPException
 from fastapi.responses import RedirectResponse
 from google_auth_oauthlib.flow import Flow
 from googleapiclient.discovery import build
-from backend.config import get_settings
-from backend.services.gmail_svc import TOKEN_PATH
+from config import get_settings
+from services.gmail_svc import TOKEN_PATH
 
 settings = get_settings()
 router = APIRouter(prefix="/oauth", tags=["OAuth"])
@@ -70,7 +70,7 @@ def oauth_status():
     authenticated = False
     if os.path.exists(TOKEN_PATH):
         try:
-            from backend.services.gmail_svc import get_credentials
+            from services.gmail_svc import get_credentials
             creds = get_credentials()
             if creds and creds.valid:
                 authenticated = True

@@ -1,6 +1,6 @@
 from typing import Dict, Any
-from backend.agent import llm
-from backend.services import crm
+from agent import llm
+from services import crm
 
 def run(state: Dict[str, Any], tenant: Dict[str, Any]) -> Dict[str, Any]:
     """Recruitment Vertical: Intent Classifier (Candidate vs. Client) and ATS resume scoring."""

@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Query
 from typing import Optional, List
-from backend.services import crm, gmail_svc, tenants_svc
-from backend.agent.nodes import log_activity
+from services import crm, gmail_svc, tenants_svc
+from agent.nodes import log_activity
 
 router = APIRouter(prefix="/leads", tags=["Leads"])
 

@@ -1,5 +1,5 @@
 from typing import Dict, Any
-from backend.services import scraper
+from services import scraper
 
 def run(state: Dict[str, Any], tenant: Dict[str, Any]) -> Dict[str, Any]:
     """Digital Marketing Vertical: Scrape lead website and check tags match."""

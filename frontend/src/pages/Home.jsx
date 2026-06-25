@@ -93,6 +93,7 @@ export default function Home() {
   useEffect(() => {
     const oauthResult = searchParams.get('oauth');
     if (oauthResult === 'success') {
+      setOauthStatus(true);
       alert('Successfully connected Google Account! Gmail & Calendar services are online.');
     } else if (oauthResult === 'error') {
       alert(`OAuth failed: ${searchParams.get('msg')}`);
@@ -101,7 +102,9 @@ export default function Home() {
       try {
         const res = await checkOAuthStatus();
         setOauthStatus(res.connected);
-      } catch (err) {}
+      } catch (err) {
+        console.error(err);
+      }
     };
     getStatus();
   }, [searchParams]);
@@ -111,6 +114,7 @@ export default function Home() {
       const res = await startOAuth();
       if (res.url) window.location.href = res.url;
     } catch (err) {
+      console.error(err);
       alert('Failed to start Google OAuth flow. Check backend configuration.');
     }
   };

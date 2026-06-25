@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from typing import Dict, Any
 from datetime import datetime, timezone
-from backend.services import crm, tenants_svc
+from services import crm, tenants_svc
 
 router = APIRouter(prefix="/metrics", tags=["Metrics"])
 

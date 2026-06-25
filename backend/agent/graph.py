@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, END
-from backend.agent.state import LeadState
-from backend.agent.nodes import (
+from agent.state import LeadState
+from agent.nodes import (
     node_dedupe, node_extract, node_score, node_classify, 
     node_enrich, node_vertical, node_respond, node_book, 
     node_notify, node_audit

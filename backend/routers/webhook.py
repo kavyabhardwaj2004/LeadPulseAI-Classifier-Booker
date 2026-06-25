@@ -4,8 +4,8 @@ from typing import List, Dict, Any
 from fastapi import APIRouter, HTTPException, BackgroundTasks
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from backend.services import tenants_svc, crm, gmail_svc
-from backend.agent.graph import run_lead_pipeline
+from services import tenants_svc, crm, gmail_svc
+from agent.graph import run_lead_pipeline
 
 router = APIRouter(prefix="/webhook", tags=["Webhooks"])
 

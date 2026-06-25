@@ -4,7 +4,7 @@ import shutil
 import threading
 from typing import List, Dict, Any, Optional
 from datetime import datetime
-from backend.config import get_settings
+from config import get_settings
 
 settings = get_settings()
 _file_lock = threading.Lock()

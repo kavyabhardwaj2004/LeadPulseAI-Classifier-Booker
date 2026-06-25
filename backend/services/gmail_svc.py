@@ -7,7 +7,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from backend.config import get_settings
+from config import get_settings
 
 settings = get_settings()
 TOKEN_PATH = os.path.join(settings.PARENT_DIR, "token.json")

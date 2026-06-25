@@ -4,8 +4,8 @@ from datetime import datetime, timedelta, timezone
 from typing import Dict, Any, Optional
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from backend.services.gmail_svc import get_credentials
-from backend.config import get_settings
+from services.gmail_svc import get_credentials
+from config import get_settings
 
 settings = get_settings()
 

@@ -2,8 +2,8 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
-from backend.services.crm import init_db
-from backend.routers import webhook, leads, tenants, oauth, metrics
+from services.crm import init_db
+from routers import webhook, leads, tenants, oauth, metrics
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

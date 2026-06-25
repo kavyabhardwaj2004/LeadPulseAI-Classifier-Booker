@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from typing import List, Dict, Any
 from pydantic import BaseModel
-from backend.services import tenants_svc
+from services import tenants_svc
 
 router = APIRouter(prefix="/tenants", tags=["Tenants"])
 
