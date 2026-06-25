@@ -60,9 +60,13 @@ def oauth_callback(code: str, state: str = None):
             
         # Redirect back to frontend homepage (or dashboard)
         # Assuming frontend runs on localhost:5173
-        return RedirectResponse(url="http://localhost:5173/?oauth=success")
+        return RedirectResponse(
+    url="https://leadpulseai-classifier-booker.onrender.com/?oauth=success"
+)
     except Exception as e:
-        return RedirectResponse(url=f"http://localhost:5173/?oauth=error&msg={str(e)}")
+       return RedirectResponse(
+    url=f"https://leadpulseai-classifier-booker.onrender.com/?oauth=error&msg={str(e)}"
+)
 
 @router.get("/status")
 def oauth_status():
