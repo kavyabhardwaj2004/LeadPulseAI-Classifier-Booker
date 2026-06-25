@@ -26,6 +26,15 @@
 
 Each tenant (agency/workspace) operates independently with its own configuration, industry vertical, active sources, and CRM database — making this a true **multi-tenant revenue intelligence platform**.
 
+### 🚀 Live Demo (Frontend):
+https://leadpulseai-classifier-booker.onrender.com
+
+### 🔗 Backend API:
+https://leadpulseai-classifier-booker-backend.onrender.com/docs
+
+### GitHub:
+https://github.com/kavyabhardwaj2004/LeadPulseAI-Classifier-Booker
+
 ---
 
 ## 🏗️ Architecture
