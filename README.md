@@ -153,6 +153,28 @@ Each tenant is matched to a specialized vertical processing module:
 
 ## 🖼️ SnapShots
 
+### Home Page
+
+![Home Page](homepg.png)
+
+---
+
+### Living Map Dashboard
+
+![Living Map](mappg.png)
+
+---
+
+### All Leads Dashboard
+
+![All Leads](allleads.png)
+
+---
+
+### Google Calendar Integration
+
+![Google Calendar](googlecalender.jpeg)
+
 ---
 
 ## 🛠️ Tech Stack
