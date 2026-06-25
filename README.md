@@ -411,6 +411,15 @@ Requirement: We urgently need a consulting partner to lead our
 
 ---
 
+## 🔮 Future Enhancements
+
+1. WhatsApp lead handling
+2. Voice call follow-up
+3. Multilingual replies
+4. AI-based meeting summary
+
+---
+
 ## 🤝 Contributing
 
 1. Fork the repository
