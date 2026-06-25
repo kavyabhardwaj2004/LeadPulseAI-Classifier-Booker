@@ -151,6 +151,10 @@ Each tenant is matched to a specialized vertical processing module:
 
 ---
 
+## 🖼️ SnapShots
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Backend
